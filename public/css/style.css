@@ -1,0 +1,603 @@
+body {
+    font-family : 'Inter';
+}
+
+/* Début formulaire de connexion et inscription*/
+
+/* Titre haut de page */
+#titlePage {
+    text-align : center;
+    font-size : 24px;
+    margin : 60px 0 40px 0;
+}
+
+.divBaseCss {
+    text-align : center;
+}
+
+/* Div global form Connexion */
+#divFormConn {
+    margin : 0 auto 0 auto;
+    background-color : #D9D9D9;
+    width : 500px;
+    border : solid black 1px;
+    border-radius : 60px;
+}
+
+/* Champ texte Se connecter */
+.pSeConnecter {
+    font-size : 24px;
+    text-align : center;
+    padding : 33px 0 25px;
+}
+
+/* Div champ à renseigner dans le form */
+.divInputFormConn {
+    margin : 0 0 44px 0;
+}
+
+/* Champ à renseigner dans le form de connexion*/
+.inputFormConn {
+    width : 400px;
+    height : 69px;
+    margin : 0 0 0 50px;
+    font-size : 20px;
+}
+
+/* Champ nom dans le formulaires d'inscription */
+.inputFormNomReg {
+    width : 180px;
+    height : 69px;
+    margin : 0 0 0 50px;
+    font-size : 20px;
+}
+
+/* Champ nom dans le formulaires d'inscription */
+.inputFormPrenomReg {
+    width : 180px;
+    height : 69px;
+    font-size : 20px;
+}
+
+/* Bouton submit form Connexion */
+.btnFormConn {
+    background-color : #5E81FC;
+    border : solid #5E81FC 1px;
+    border-radius : 25px;
+    font-size : 20px;
+    width: 400px;
+    height : 69px;
+    margin: 0 0 0 50px;
+}
+
+/* Bouton submit form Inscription */
+.btnFormReg {
+    background-color : #5E81FC;
+    border : solid #5E81FC 1px;
+    border-radius : 25px;
+    font-size : 20px;
+    width: 400px;
+    height : 69px;
+    margin : 0 0 33px 50px;
+    padding : 20px;
+}
+
+/* Début Bar de separation bouton form connexion */
+#divBarreOuConn {
+    width : 100%;
+    text-align : center;
+    border-bottom : 1px solid black;
+    line-height : 0.1em;
+    margin : 30px 0 30px;
+}
+
+#spanBarreOuConn {
+    background : #D9D9D9;
+    padding : 0 20px;
+    color : #505050;
+}
+/* Fin Bar de separation bouton form connexion */
+
+/* Bouton lien form inscription */
+.btnRegFormConn {
+    background-color : #5B5C5E;
+    border : solid #5B5C5E 1px;
+    border-radius : 25px;
+    font-size : 20px;
+    width : 400px;
+    height : 69px;
+    margin : 0 0 33px 50px;
+    padding : 20px;
+}
+
+/* Bouton submit form Inscription */
+.btnLinkFormConn {
+    background-color : #5B5C5E;
+    font-size : 20px;
+    border : solid #5B5C5E 1px;
+    border-radius : 25px;
+    width : 400px;
+    height : 69px;
+    margin : 0 0 33px 50px;
+    padding : 20px;
+}
+
+/* Fin formulaire de connexion et inscription */
+
+/* Page d'accueil */
+
+.linkAccueil {
+    font-size : 22px;
+    color : black;
+    text-decoration : none;
+}
+
+.divProfil {
+    border : solid black 1px;
+    border-radius : 10px;
+    margin : 0 20px 0 20px;
+    padding : 5px 25px 5px 25px;
+}
+
+.titleProfil {
+    font-size : 22px;
+}
+
+/* Début page de consultations */
+
+.titleConsult {
+    font-size : 24px;
+    font-weight: bold;
+    margin: 30px 0 0 30px;
+}
+
+.divGlobalConsult {
+    background-color : #CFCFCF;
+    border-radius : 0 10px 10px 10px;
+    display : flex;
+    flex-wrap: wrap;
+    margin : 15px 30px 0 30px;
+    max-width : 1350px;
+    height : auto;
+}
+
+.divContainerConsult {
+    width : 400px;
+    height : 200px;
+    display : flex;
+    flex-direction: row;
+    background-color : #9ACFC2;
+    border : solid black 1px;
+    border-radius : 25px;
+    margin : 25px 25px 25px 25px;
+}
+
+.infoConsult {
+    width : 325px;
+}
+
+.btnInfoSuppConsult {
+    width : 75px;
+    border-left : solid black 1px;
+    display : flex;
+    align-items: center;
+}
+
+.nameConsult {
+    font-size : 20px;
+    font-weight : bold;
+    margin : 9px 0 0 18px;
+}
+
+.paragrapheConsult {
+    font-size : 16px;
+    margin : 5px 0 0 18px;
+}
+
+.listInter {
+    font-size : 16px;
+}
+
+/* Fin page de consultations */
+
+
+/* Début page de consultations entreprises */
+
+.filterEnt {
+    text-align : center;
+    display : flex;
+    flex-direction : row;
+    margin : 30px 0 0 30px;
+    /* width : 1335px; */
+    height : 50px;
+    color : white;
+
+}
+
+.filterClasse {
+    background-color : #504F4F;
+    border-radius: 10px;
+    display : flex;
+    width : 400px;
+}
+
+.textFilter {
+    display : flex;
+    flex-direction: column;
+    align-self: center;
+    font-size : 20px;
+}
+
+.caretFilter {
+    position : relative;
+    width : 50px;
+    height : 50px;
+    font-size : 37px;
+}
+
+.filterZone {
+    background-color : #504F4F;
+    border-radius: 10px;
+    display : flex;
+    width : 350px;
+    margin : 0 0 0 50px;
+}
+
+.filterHandicap {
+    background-color : #504F4F;
+    border-radius: 10px;
+    display : flex;
+    width : 375px;
+    margin : 0 0 0 50px
+}
+
+.btnResearchFilter {
+    background-color : #91A4E8;
+    border-radius: 10px;
+    display : flex;
+    flex-direction: column;
+    width : 50px;
+    margin : 0 0 0 50px;
+}
+
+/* Fin page de consultations entreprises */
+
+/* Début page de détail dispositif */
+
+
+.titleDispDetail {
+    margin : 15px 0 0 30px;
+    font-size : 28px;
+    font-weight: bolder;
+}
+
+.divContainerDisp {
+    margin : 15px 0 0 50px;
+}
+
+.divSousTitleDisp {
+    font-size : 22px;
+}
+
+.divContenuDisp {
+    font-size : 20px;
+    margin : 4px 20px 0 20px
+}
+
+.divInterDisp {
+    display : flex;
+    flex-direction: row;
+    font-size : 20px;
+    margin : 4px 0 0 20px;
+}
+
+/* Fin page de détail dispositif */
+
+/* Début page de détail entreprise */
+
+.titleEntDetail {
+    margin : 15px 0 0 30px;
+    font-size : 28px;
+    font-weight: bolder;
+}
+
+.divLigneTripleEnt {
+    margin : 10px 20px 0 0;
+}
+
+.divContainerEnt {
+    margin : 15px 30px 0 50px;
+}
+
+.divContainerEntContact {
+    margin : 15px 30px 0 50px;
+}
+
+.divSousTitleEnt {
+    font-size : 22px;
+}
+
+.divContenuEnt {
+    font-size : 20px;
+    margin : 4px 20px 0 20px
+}
+
+.divContactEnt {
+    display : flex;
+    flex-direction: row;
+    font-size : 20px;
+    margin : 4px 0 0 20px;
+}
+
+.blocContact {
+    display : flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-image: "bi bi-caret-fill-right";
+}
+
+/* Fin page de détail entreprise */
+
+/* Interface de gestion */
+
+/* Tableau de gestion */
+
+/* THead */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    border-top-color: gray;
+    text-indent: initial;
+    box-sizing: border-box;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+.table100.ver5 {
+    overflow: hidden;
+}
+
+.table100.ver5 {
+    margin-right: -30px;
+}
+
+.table100 {
+    background-color: #fff;
+}
+
+.m-b-110 {
+    margin-bottom: 110px;
+}
+
+.table100-head {
+    width: 100%;
+}
+
+.table100.ver5 .table100-head {
+    padding-right: 30px;
+}
+
+th, td {
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+.table100.ver5 .table100-head th {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.table100.ver5 th {
+    font-family: Lato-Bold;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.table100-head th {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.column1 {
+    width: 20%;
+    padding-left: 40px;
+}
+
+.column2 {
+    width: 35%;
+}
+
+.column3 {
+    width: 15%;
+}
+
+.column4 {
+    width: 15%;
+}
+
+.column5 {
+    width: 15%;
+}
+
+/* TBody */
+
+.table100.ver5 .table100-body table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+table {
+    width: 100%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+.table100.ver5 .table100-body tr {
+    overflow: hidden;
+    border-bottom: 10px solid #fff;
+    border-radius: 10px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+.table100.ver5 .table100-body td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.table100.ver5 .table100-body td {
+    border: solid 1px transparent;
+    border-style: solid none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table100.ver5 td {
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4;
+    background-color: #f7f7f7;
+}
+
+.table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* Tableau de gestion */
+
+
+
+/* Interface de gestion */
+
+
+.body {
+    margin: 0; /* On mets le margin a 0 */
+
+    /* BODY 100% de l'écran */
+    width: 100vw;
+    height: 100vh;
+    
+    /* CENTRER LE body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* Autres styles */
+    background-color: #DDDDDD;
+}
+
+.content {
+    /* CENTRER LE content */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+
+    /* Taille du content */
+    width: 97vw;
+    height: 95vh;
+
+    /* Autres styles */
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.contact {
+    width: 400px;
+}
+
+.ajouterContact {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ajouterContact:hover {
+    cursor: pointer;
+    color: #323232;    
+}
+
+.nom-prenom, .tel-fixe {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input span {
+    font-size: 14px;
+
+    margin-left : 5px;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.supprimerContact {
+    cursor: pointer;
+
+    width: 10px;
+    color: lightskyblue
+}
